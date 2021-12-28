@@ -1,0 +1,108 @@
+*{
+	padding:0;
+	margin: 0;
+}
+body{
+	background: teal;
+	height: 100vh;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+div{
+	margin: 30px;
+}
+.square{
+	width: 100px;
+	height: 100px;
+	background: white;
+}
+.circle{
+	width: 100px;
+	height: 100px;
+	background: white;
+	border-radius: 50%;
+}
+.triangle{
+	height: 0;
+	width: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white ;
+}
+.oval{
+      width: 180px;
+	height: 100px;
+	background: white;
+	border-radius: 50%;	
+}
+.egg{
+	width: 110px;
+	height: 160px;
+	background: white;
+	border-radius: 50% / 60% 60% 40% 40%;
+}
+.rectangle{
+	width: 180px;
+	height: 100px;
+	background: white;
+}
+.cone	{
+	height: 0;
+	width: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid white ;
+	border-radius: 50%;
+}
+.pacman{
+	height: 0;
+	width: 0;
+	border-top: 60px solid yellow;
+	border-bottom: 60px solid yellow;
+	border-right: 60px solid transparent;
+	border-left: 60px solid yellow;
+	border-radius: 50%;
+}
+.moon{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	box-shadow: 20px 20px white;
+}
+.parallelogram{
+      width: 180px;
+	height: 100px;
+	transform: skew(20deg);
+	background: white;	
+}
+.omnitrix{
+	height: 0;
+	width: 10px;
+	border-top: 60px solid green;
+	border-bottom: 60px solid green;
+	border-right: 60px solid transparent;
+	border-left: 60px solid transparent;
+	border-radius: 50%;
+}
+.diamond{
+      width: 100px;
+	height: 100px;
+	transform: rotate(45deg);
+	background: white;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
